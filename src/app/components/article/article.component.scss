@@ -1,0 +1,37 @@
+div.bg-white {
+  border-radius: 5px;
+}
+div.text-center:first-child:before {
+  display: block;
+  content: '';
+  height: 6px;
+  background-color: #f45144;
+}
+span.glyphicon-link {
+  padding: 10px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  position: relative;
+  top: -21px;
+}
+h4.text-red {
+  margin: -15px 15px 8px;
+}
+div.grid {
+  padding: 15px;
+}
+img {
+  width: 100%;
+}
+div.text-justify {
+  white-space: pre-wrap;
+}
+button.btn-default {
+  border: none;
+}
+.glyphicon:not(.glyphicon-link) {
+  margin-right: 3px;
+}
+.glyphicon:not(:first-child) {
+  margin-left: 8px;
+}

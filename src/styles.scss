@@ -1,2 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+/* background color settings */
+.bg-red {
+  background-color: #f45144;
+}
+.bg-white {
+  background-color: white;
+}
+.bg-default {
+  background-color: #f0f1f3;
+}
+
+
+/* color settings */
+.text-red {
+  color: #f45144;
+}
+.text-grey {
+  color: grey;
+}
+
+.padding {
+  padding: 15px;
+}
