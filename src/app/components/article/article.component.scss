@@ -13,6 +13,11 @@ span.glyphicon-link {
   color: #FFFFFF;
   position: relative;
   top: -21px;
+  transition: all .3s ease-in-out;
+}
+span.glyphicon-link:hover {
+  background-color: #C76114;
+  transform: rotate(90deg);
 }
 h4.text-red {
   margin: -15px 15px 8px;
