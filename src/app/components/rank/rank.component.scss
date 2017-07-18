@@ -2,6 +2,10 @@
   div.bg-white {
     height: 100%;
   }
+  .rank-item {
+    height:43px;
+    line-height: 30px;
+  }
 }
 
 @media (min-width:768px) and (max-width:991px){
@@ -9,12 +13,25 @@
     height: 286px;
   }
   .rank-item {
-    height:34.5px;
+    height:31px;
   }
 }
 @media (min-width:992px) and (max-width:1199px){
   div.bg-white {
     height: 375px;
+  }
+  .rank-item {
+    height:43px;
+    line-height: 30px;
+  }
+}
+@media (min-width:1200px) {
+  div.bg-white {
+    height: 455px;
+  }
+  .rank-item {
+    height:53px;
+    line-height: 40px;
   }
 }
 
