@@ -1,0 +1,34 @@
+@media (max-width:767px) {
+  div.bg-white {
+    height: 100%;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px){
+  div.bg-white {
+    height: 286px;
+  }
+  .rank-item {
+    height:34.5px;
+  }
+}
+@media (min-width:992px) and (max-width:1199px){
+  div.bg-white {
+    height: 375px;
+  }
+}
+
+div.bg-white {
+  overflow: hidden;
+}
+span.label {
+  margin-right: 8px;
+}
+.rank-item {
+  box-sizing: border-box;
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
+.rank-item:not(:first-child) {
+  border-top: 1px solid #ddd;
+}
