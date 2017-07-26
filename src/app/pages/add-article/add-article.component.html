@@ -1,0 +1,11 @@
+<script src="https://cdn.ckeditor.com/4.5.11/full/ckeditor.js"></script>
+<ckeditor
+
+    [config]="{uiColor: '#99000'}"
+    [readonly]="false"
+    (change)="onChange($event)"
+    (ready)="onReady($event)"
+    (focus)="onFocus($event)"
+    (blur)="onBlur($event)"
+    debounce="500">
+  </ckeditor>

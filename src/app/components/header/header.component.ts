@@ -7,11 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   navbar = [
-    {title: '首页', href: '#'},
-    {title: '开发总结', href: '#'},
-    {title: '技术文章', href: '#'},
-    {title: '每日心语', href: '#'},
-    {title: '关于我', href: '#'}
+    {title: 'Home', href: '#'},
+    {title: 'Summary', href: '#'},
+    {title: 'Article', href: '#'},
+    {title: 'Diary', href: '#'},
+    {title: 'About', href: '#'}
   ];
   currentIndex = 0;
   constructor() { }

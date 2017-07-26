@@ -1,3 +1,7 @@
+:host {
+  display: block;
+  margin-bottom: 20px;
+}
 @media (max-width:767px) {
   div.bg-white {
     height: 100%;
@@ -45,6 +49,7 @@ span.label {
   box-sizing: border-box;
   padding-top: 8px;
   padding-bottom: 5px;
+  overflow: hidden;
 }
 .rank-item:not(:first-child) {
   border-top: 1px solid #ddd;
